@@ -1,0 +1,10 @@
+C:\Users\miguel.psilva5\source\repos\AulaDeForms\AulaDeForms\bin\Debug\AulaDeForms.exe.config
+C:\Users\miguel.psilva5\source\repos\AulaDeForms\AulaDeForms\bin\Debug\AulaDeForms.exe
+C:\Users\miguel.psilva5\source\repos\AulaDeForms\AulaDeForms\bin\Debug\AulaDeForms.pdb
+C:\Users\miguel.psilva5\source\repos\AulaDeForms\AulaDeForms\obj\Debug\AulaDeForms.csproj.AssemblyReference.cache
+C:\Users\miguel.psilva5\source\repos\AulaDeForms\AulaDeForms\obj\Debug\AulaDeForms.csproj.SuggestedBindingRedirects.cache
+C:\Users\miguel.psilva5\source\repos\AulaDeForms\AulaDeForms\obj\Debug\AulaDeForms.Properties.Resources.resources
+C:\Users\miguel.psilva5\source\repos\AulaDeForms\AulaDeForms\obj\Debug\AulaDeForms.csproj.GenerateResource.cache
+C:\Users\miguel.psilva5\source\repos\AulaDeForms\AulaDeForms\obj\Debug\AulaDeForms.csproj.CoreCompileInputs.cache
+C:\Users\miguel.psilva5\source\repos\AulaDeForms\AulaDeForms\obj\Debug\AulaDeForms.exe
+C:\Users\miguel.psilva5\source\repos\AulaDeForms\AulaDeForms\obj\Debug\AulaDeForms.pdb

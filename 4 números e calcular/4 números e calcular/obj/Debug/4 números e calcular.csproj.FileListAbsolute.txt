@@ -1,0 +1,8 @@
+C:\Users\miguel.psilva5\source\repos\4 números e calcular\4 números e calcular\bin\Debug\4 números e calcular.exe.config
+C:\Users\miguel.psilva5\source\repos\4 números e calcular\4 números e calcular\bin\Debug\4 números e calcular.exe
+C:\Users\miguel.psilva5\source\repos\4 números e calcular\4 números e calcular\bin\Debug\4 números e calcular.pdb
+C:\Users\miguel.psilva5\source\repos\4 números e calcular\4 números e calcular\obj\Debug\4 números e calcular.csproj.AssemblyReference.cache
+C:\Users\miguel.psilva5\source\repos\4 números e calcular\4 números e calcular\obj\Debug\4 números e calcular.csproj.SuggestedBindingRedirects.cache
+C:\Users\miguel.psilva5\source\repos\4 números e calcular\4 números e calcular\obj\Debug\4 números e calcular.csproj.CoreCompileInputs.cache
+C:\Users\miguel.psilva5\source\repos\4 números e calcular\4 números e calcular\obj\Debug\4 números e calcular.exe
+C:\Users\miguel.psilva5\source\repos\4 números e calcular\4 números e calcular\obj\Debug\4 números e calcular.pdb

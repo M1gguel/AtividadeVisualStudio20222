@@ -1,0 +1,8 @@
+C:\Users\miguel.psilva5\source\repos\caluclo de média se passou ou não\caluclo de média se passou ou não\bin\Debug\caluclo de média se passou ou não.exe.config
+C:\Users\miguel.psilva5\source\repos\caluclo de média se passou ou não\caluclo de média se passou ou não\bin\Debug\caluclo de média se passou ou não.exe
+C:\Users\miguel.psilva5\source\repos\caluclo de média se passou ou não\caluclo de média se passou ou não\bin\Debug\caluclo de média se passou ou não.pdb
+C:\Users\miguel.psilva5\source\repos\caluclo de média se passou ou não\caluclo de média se passou ou não\obj\Debug\caluclo de média se passou ou não.csproj.AssemblyReference.cache
+C:\Users\miguel.psilva5\source\repos\caluclo de média se passou ou não\caluclo de média se passou ou não\obj\Debug\caluclo de média se passou ou não.csproj.SuggestedBindingRedirects.cache
+C:\Users\miguel.psilva5\source\repos\caluclo de média se passou ou não\caluclo de média se passou ou não\obj\Debug\caluclo de média se passou ou não.csproj.CoreCompileInputs.cache
+C:\Users\miguel.psilva5\source\repos\caluclo de média se passou ou não\caluclo de média se passou ou não\obj\Debug\caluclo de média se passou ou não.exe
+C:\Users\miguel.psilva5\source\repos\caluclo de média se passou ou não\caluclo de média se passou ou não\obj\Debug\caluclo de média se passou ou não.pdb

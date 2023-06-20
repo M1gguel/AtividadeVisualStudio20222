@@ -1,0 +1,23 @@
+/* Online C# Compiler and Editor */
+using System.IO;
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // comentário de linha
+        
+        /*
+            Comentário de múltiplas linhas
+            linha1
+            linha2
+        */
+        int idade = 39;
+        string nome = "Miguel Perez";
+        double valor = 10000000000.50;
+        char letra = 'A';
+        bool status = true;
+        
+    }
+}
