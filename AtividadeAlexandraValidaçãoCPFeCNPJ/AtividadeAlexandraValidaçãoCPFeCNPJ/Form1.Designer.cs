@@ -106,6 +106,7 @@
             this.BtnCancel.TabIndex = 7;
             this.BtnCancel.Text = "Cancelar";
             this.BtnCancel.UseVisualStyleBackColor = true;
+            this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
             // menuStrip1
             // 
