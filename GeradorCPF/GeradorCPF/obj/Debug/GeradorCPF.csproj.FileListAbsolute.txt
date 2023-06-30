@@ -1,0 +1,11 @@
+C:\Users\miguel.psilva5\source\repos\GeradorCPF\GeradorCPF\obj\Debug\GeradorCPF.csproj.AssemblyReference.cache
+C:\Users\miguel.psilva5\source\repos\GeradorCPF\GeradorCPF\obj\Debug\GeradorCPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\miguel.psilva5\source\repos\GeradorCPF\GeradorCPF\obj\Debug\GeradorCPF.Form1.resources
+C:\Users\miguel.psilva5\source\repos\GeradorCPF\GeradorCPF\obj\Debug\GeradorCPF.Properties.Resources.resources
+C:\Users\miguel.psilva5\source\repos\GeradorCPF\GeradorCPF\obj\Debug\GeradorCPF.csproj.GenerateResource.cache
+C:\Users\miguel.psilva5\source\repos\GeradorCPF\GeradorCPF\obj\Debug\GeradorCPF.csproj.CoreCompileInputs.cache
+C:\Users\miguel.psilva5\source\repos\GeradorCPF\GeradorCPF\bin\Debug\GeradorCPF.exe.config
+C:\Users\miguel.psilva5\source\repos\GeradorCPF\GeradorCPF\bin\Debug\GeradorCPF.exe
+C:\Users\miguel.psilva5\source\repos\GeradorCPF\GeradorCPF\bin\Debug\GeradorCPF.pdb
+C:\Users\miguel.psilva5\source\repos\GeradorCPF\GeradorCPF\obj\Debug\GeradorCPF.exe
+C:\Users\miguel.psilva5\source\repos\GeradorCPF\GeradorCPF\obj\Debug\GeradorCPF.pdb

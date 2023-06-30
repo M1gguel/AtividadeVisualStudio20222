@@ -1,0 +1,11 @@
+C:\Users\miguel.psilva5\source\repos\AppCalcularMédia1\AppCalcularMédia1\bin\Debug\AppCalcularMédia1.exe.config
+C:\Users\miguel.psilva5\source\repos\AppCalcularMédia1\AppCalcularMédia1\bin\Debug\AppCalcularMédia1.exe
+C:\Users\miguel.psilva5\source\repos\AppCalcularMédia1\AppCalcularMédia1\bin\Debug\AppCalcularMédia1.pdb
+C:\Users\miguel.psilva5\source\repos\AppCalcularMédia1\AppCalcularMédia1\obj\Debug\AppCalcularMédia1.csproj.AssemblyReference.cache
+C:\Users\miguel.psilva5\source\repos\AppCalcularMédia1\AppCalcularMédia1\obj\Debug\AppCalcularMédia1.csproj.SuggestedBindingRedirects.cache
+C:\Users\miguel.psilva5\source\repos\AppCalcularMédia1\AppCalcularMédia1\obj\Debug\AppCalcularMédia1.FrmCalcularMedia.resources
+C:\Users\miguel.psilva5\source\repos\AppCalcularMédia1\AppCalcularMédia1\obj\Debug\AppCalcularMédia1.Properties.Resources.resources
+C:\Users\miguel.psilva5\source\repos\AppCalcularMédia1\AppCalcularMédia1\obj\Debug\AppCalcularMédia1.csproj.GenerateResource.cache
+C:\Users\miguel.psilva5\source\repos\AppCalcularMédia1\AppCalcularMédia1\obj\Debug\AppCalcularMédia1.csproj.CoreCompileInputs.cache
+C:\Users\miguel.psilva5\source\repos\AppCalcularMédia1\AppCalcularMédia1\obj\Debug\AppCalcularMédia1.exe
+C:\Users\miguel.psilva5\source\repos\AppCalcularMédia1\AppCalcularMédia1\obj\Debug\AppCalcularMédia1.pdb

@@ -1,0 +1,8 @@
+C:\Users\miguel.psilva5\source\repos\validacpf\validacpf\obj\Debug\validacpf.csproj.AssemblyReference.cache
+C:\Users\miguel.psilva5\source\repos\validacpf\validacpf\obj\Debug\validacpf.csproj.SuggestedBindingRedirects.cache
+C:\Users\miguel.psilva5\source\repos\validacpf\validacpf\obj\Debug\validacpf.csproj.CoreCompileInputs.cache
+C:\Users\miguel.psilva5\source\repos\validacpf\validacpf\bin\Debug\validacpf.exe.config
+C:\Users\miguel.psilva5\source\repos\validacpf\validacpf\bin\Debug\validacpf.exe
+C:\Users\miguel.psilva5\source\repos\validacpf\validacpf\bin\Debug\validacpf.pdb
+C:\Users\miguel.psilva5\source\repos\validacpf\validacpf\obj\Debug\validacpf.exe
+C:\Users\miguel.psilva5\source\repos\validacpf\validacpf\obj\Debug\validacpf.pdb

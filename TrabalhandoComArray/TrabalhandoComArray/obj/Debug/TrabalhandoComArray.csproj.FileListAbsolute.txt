@@ -1,0 +1,8 @@
+C:\Users\miguel.psilva5\source\repos\TrabalhandoComArray\TrabalhandoComArray\bin\Debug\TrabalhandoComArray.exe.config
+C:\Users\miguel.psilva5\source\repos\TrabalhandoComArray\TrabalhandoComArray\bin\Debug\TrabalhandoComArray.exe
+C:\Users\miguel.psilva5\source\repos\TrabalhandoComArray\TrabalhandoComArray\bin\Debug\TrabalhandoComArray.pdb
+C:\Users\miguel.psilva5\source\repos\TrabalhandoComArray\TrabalhandoComArray\obj\Debug\TrabalhandoComArray.csproj.AssemblyReference.cache
+C:\Users\miguel.psilva5\source\repos\TrabalhandoComArray\TrabalhandoComArray\obj\Debug\TrabalhandoComArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\miguel.psilva5\source\repos\TrabalhandoComArray\TrabalhandoComArray\obj\Debug\TrabalhandoComArray.csproj.CoreCompileInputs.cache
+C:\Users\miguel.psilva5\source\repos\TrabalhandoComArray\TrabalhandoComArray\obj\Debug\TrabalhandoComArray.exe
+C:\Users\miguel.psilva5\source\repos\TrabalhandoComArray\TrabalhandoComArray\obj\Debug\TrabalhandoComArray.pdb

@@ -1,0 +1,5 @@
+﻿Compilação iniciada...
+1>------ Compilação iniciada: Projeto: AppCalcularMédia1, Configuração: Debug Any CPU ------
+1>  AppCalcularMédia1 -> C:\Users\miguel.psilva5\source\repos\AppCalcularMédia1\AppCalcularMédia1\bin\Debug\AppCalcularMédia1.exe
+========== Compilação: 1 bem-sucedida, 0 com falha, 0 atualizada, 0 ignorada ==========
+========== Compilação começou em 3:17 PM e levou 00,382 segundos ==========
