@@ -26,7 +26,6 @@ namespace AtividadeAlexandraValidaçãoCPFeCNPJ
             {
                 string cpf = CpfOuCnpj.Text;
                 string cpfSemCaracteres = cpf.Replace(".", "").Replace("-", "");
-                int numero;
 
                 int[] cpfInt = cpfSemCaracteres.Select(digito => Convert.ToInt32(digito.ToString())).ToArray();
                 int soma1 = 0, soma2 = 0;
