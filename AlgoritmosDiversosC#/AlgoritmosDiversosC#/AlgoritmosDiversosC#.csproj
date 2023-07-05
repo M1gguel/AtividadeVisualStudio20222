@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AlgoritmosDiversosC_.ListadeCompras</StartupObject>
+    <StartupObject>AlgoritmosDiversosC_.TrabalhandoLista</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

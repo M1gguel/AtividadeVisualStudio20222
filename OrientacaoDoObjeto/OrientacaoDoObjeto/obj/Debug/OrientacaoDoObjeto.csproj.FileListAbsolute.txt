@@ -1,0 +1,8 @@
+C:\Users\miguel.psilva5\source\repos\OrientacaoDoObjeto\OrientacaoDoObjeto\bin\Debug\OrientacaoDoObjeto.exe.config
+C:\Users\miguel.psilva5\source\repos\OrientacaoDoObjeto\OrientacaoDoObjeto\bin\Debug\OrientacaoDoObjeto.exe
+C:\Users\miguel.psilva5\source\repos\OrientacaoDoObjeto\OrientacaoDoObjeto\bin\Debug\OrientacaoDoObjeto.pdb
+C:\Users\miguel.psilva5\source\repos\OrientacaoDoObjeto\OrientacaoDoObjeto\obj\Debug\OrientacaoDoObjeto.csproj.AssemblyReference.cache
+C:\Users\miguel.psilva5\source\repos\OrientacaoDoObjeto\OrientacaoDoObjeto\obj\Debug\OrientacaoDoObjeto.csproj.SuggestedBindingRedirects.cache
+C:\Users\miguel.psilva5\source\repos\OrientacaoDoObjeto\OrientacaoDoObjeto\obj\Debug\OrientacaoDoObjeto.csproj.CoreCompileInputs.cache
+C:\Users\miguel.psilva5\source\repos\OrientacaoDoObjeto\OrientacaoDoObjeto\obj\Debug\OrientacaoDoObjeto.exe
+C:\Users\miguel.psilva5\source\repos\OrientacaoDoObjeto\OrientacaoDoObjeto\obj\Debug\OrientacaoDoObjeto.pdb

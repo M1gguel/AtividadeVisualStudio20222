@@ -70,7 +70,7 @@ namespace AlgoritmosDiversosC_
             {
                 Console.WriteLine("Não foi encontrado nenhum item descrito na lista");
             }
-
+    
             //Clear: Limpar os itens da lista
             lista.Clear();
         }
