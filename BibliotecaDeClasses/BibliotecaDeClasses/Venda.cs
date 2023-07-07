@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace BibliotecaDeClasses
 {
-    internal class Venda
+    internal class Venda : DetalhesDaVenda
     {
+        internal object venda;
+
+        public override void MostrarDetalhesProduto()
+        {
+            base.MostrarDetalhesProduto();
+        }
+
     }
 }

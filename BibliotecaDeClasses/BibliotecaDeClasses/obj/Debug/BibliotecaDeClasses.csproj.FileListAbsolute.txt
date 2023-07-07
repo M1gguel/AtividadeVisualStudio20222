@@ -1,0 +1,8 @@
+C:\Users\miguel.psilva5\source\repos\BibliotecaDeClasses\BibliotecaDeClasses\obj\Debug\BibliotecaDeClasses.csproj.AssemblyReference.cache
+C:\Users\miguel.psilva5\source\repos\BibliotecaDeClasses\BibliotecaDeClasses\obj\Debug\BibliotecaDeClasses.csproj.SuggestedBindingRedirects.cache
+C:\Users\miguel.psilva5\source\repos\BibliotecaDeClasses\BibliotecaDeClasses\obj\Debug\BibliotecaDeClasses.csproj.CoreCompileInputs.cache
+C:\Users\miguel.psilva5\source\repos\BibliotecaDeClasses\BibliotecaDeClasses\bin\Debug\BibliotecaDeClasses.exe.config
+C:\Users\miguel.psilva5\source\repos\BibliotecaDeClasses\BibliotecaDeClasses\bin\Debug\BibliotecaDeClasses.exe
+C:\Users\miguel.psilva5\source\repos\BibliotecaDeClasses\BibliotecaDeClasses\bin\Debug\BibliotecaDeClasses.pdb
+C:\Users\miguel.psilva5\source\repos\BibliotecaDeClasses\BibliotecaDeClasses\obj\Debug\BibliotecaDeClasses.exe
+C:\Users\miguel.psilva5\source\repos\BibliotecaDeClasses\BibliotecaDeClasses\obj\Debug\BibliotecaDeClasses.pdb

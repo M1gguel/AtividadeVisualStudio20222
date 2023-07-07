@@ -8,16 +8,12 @@ namespace BibliotecaDeClasses
 {
     internal class Cliente
     {
-        protected Cliente() {
-       private int IdCliente = 1;
-        public string NomeCompleto = "Miguel Perez Silva";
-        public string Email = "miguelpsilva0@gmail.com";
-        public int Telefone = 199552469;
-        private string Senha = "miguelbrabo";
-        public string Endereco = "Rua Ipanema n:47";
-        public int DataDeNascimento = 04 / 07 / 2005;
-    }
-        
-    }
-
+        private int IdCliente;
+        public string NomeCompleto;
+        public string Email;
+        public int Telefone;
+        private string Senha;
+        public string Endereco;
+        public int DataDeNascimento;   
+    }            
 }

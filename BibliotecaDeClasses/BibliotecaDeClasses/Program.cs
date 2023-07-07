@@ -8,5 +8,10 @@ namespace BibliotecaDeClasses
 {
     internal class Program
     {
+        static void Main(string[] args)
+        {
+            Venda venda = new Venda();
+             venda.MostrarDetalhesProduto();
+        }
     }
 }
