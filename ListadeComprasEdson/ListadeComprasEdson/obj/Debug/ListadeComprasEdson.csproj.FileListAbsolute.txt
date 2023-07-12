@@ -1,0 +1,8 @@
+C:\Users\miguel.psilva5\source\repos\ListadeComprasEdson\ListadeComprasEdson\obj\Debug\ListadeComprasEdson.csproj.AssemblyReference.cache
+C:\Users\miguel.psilva5\source\repos\ListadeComprasEdson\ListadeComprasEdson\obj\Debug\ListadeComprasEdson.csproj.SuggestedBindingRedirects.cache
+C:\Users\miguel.psilva5\source\repos\ListadeComprasEdson\ListadeComprasEdson\obj\Debug\ListadeComprasEdson.csproj.CoreCompileInputs.cache
+C:\Users\miguel.psilva5\source\repos\ListadeComprasEdson\ListadeComprasEdson\bin\Debug\ListadeComprasEdson.exe.config
+C:\Users\miguel.psilva5\source\repos\ListadeComprasEdson\ListadeComprasEdson\bin\Debug\ListadeComprasEdson.exe
+C:\Users\miguel.psilva5\source\repos\ListadeComprasEdson\ListadeComprasEdson\bin\Debug\ListadeComprasEdson.pdb
+C:\Users\miguel.psilva5\source\repos\ListadeComprasEdson\ListadeComprasEdson\obj\Debug\ListadeComprasEdson.exe
+C:\Users\miguel.psilva5\source\repos\ListadeComprasEdson\ListadeComprasEdson\obj\Debug\ListadeComprasEdson.pdb
