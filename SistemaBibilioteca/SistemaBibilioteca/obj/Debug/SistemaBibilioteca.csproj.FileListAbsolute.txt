@@ -1,0 +1,12 @@
+C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\bin\Debug\SistemaBibilioteca.exe.config
+C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\bin\Debug\SistemaBibilioteca.exe
+C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\bin\Debug\SistemaBibilioteca.pdb
+C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\obj\Debug\SistemaBibilioteca.csproj.AssemblyReference.cache
+C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\obj\Debug\SistemaBibilioteca.csproj.SuggestedBindingRedirects.cache
+C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\obj\Debug\SistemaBibilioteca.FRMCadastroAluno.resources
+C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\obj\Debug\SistemaBibilioteca.FrmCadastroLivro.resources
+C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\obj\Debug\SistemaBibilioteca.Properties.Resources.resources
+C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\obj\Debug\SistemaBibilioteca.csproj.GenerateResource.cache
+C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\obj\Debug\SistemaBibilioteca.csproj.CoreCompileInputs.cache
+C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\obj\Debug\SistemaBibilioteca.exe
+C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\obj\Debug\SistemaBibilioteca.pdb

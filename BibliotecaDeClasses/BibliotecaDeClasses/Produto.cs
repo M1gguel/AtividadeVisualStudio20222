@@ -9,7 +9,8 @@ namespace BibliotecaDeClasses
 {
     public class Produto
     {
-        public int Idprodutos = 1;
+        public int DataDeNascimento;
+        private int Idprodutos = 1;
         public string NomeProduto = "Cumbuca";
         public double Preco = 15.99;
         public int Quantidade = 5;

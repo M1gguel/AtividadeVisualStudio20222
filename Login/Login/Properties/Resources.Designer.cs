@@ -184,6 +184,16 @@ namespace Login.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LogoJobSwipe {
+            get {
+                object obj = ResourceManager.GetObject("LogoJobSwipe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Royalty_Free_Vector_Images__over_34_7_million____Page_26 {
             get {
                 object obj = ResourceManager.GetObject("Royalty-Free Vector Images (over 34_7 million) - Page 26", resourceCulture);
