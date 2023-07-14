@@ -39,7 +39,7 @@
             this.lblData = new System.Windows.Forms.Label();
             this.lblCelular = new System.Windows.Forms.Label();
             this.lblCodigoCliente = new System.Windows.Forms.Label();
-            this.txtPesquisar = new System.Windows.Forms.TextBox();
+            this.txtPesquisarAluno = new System.Windows.Forms.TextBox();
             this.btnAtualizarAluno = new System.Windows.Forms.Button();
             this.btnExcluirAluno = new System.Windows.Forms.Button();
             this.btnPesquisarAluno = new System.Windows.Forms.Button();
@@ -83,10 +83,13 @@
             // dgvAlunos
             // 
             this.dgvAlunos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAlunos.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvAlunos.Location = new System.Drawing.Point(30, 260);
             this.dgvAlunos.Name = "dgvAlunos";
+            this.dgvAlunos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvAlunos.Size = new System.Drawing.Size(660, 161);
-            this.dgvAlunos.TabIndex = 3;
+            this.dgvAlunos.TabIndex = 11;
+            this.dgvAlunos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAlunos_CellDoubleClick);
             // 
             // lblEmail
             // 
@@ -156,13 +159,14 @@
             this.lblCodigoCliente.TabIndex = 13;
             this.lblCodigoCliente.Text = "Cód.Cliente:";
             // 
-            // txtPesquisar
+            // txtPesquisarAluno
             // 
-            this.txtPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPesquisar.Location = new System.Drawing.Point(494, 212);
-            this.txtPesquisar.Name = "txtPesquisar";
-            this.txtPesquisar.Size = new System.Drawing.Size(100, 24);
-            this.txtPesquisar.TabIndex = 15;
+            this.txtPesquisarAluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPesquisarAluno.Location = new System.Drawing.Point(494, 212);
+            this.txtPesquisarAluno.Name = "txtPesquisarAluno";
+            this.txtPesquisarAluno.Size = new System.Drawing.Size(100, 24);
+            this.txtPesquisarAluno.TabIndex = 15;
+            this.txtPesquisarAluno.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtPesquisar_KeyUp);
             // 
             // btnAtualizarAluno
             // 
@@ -173,6 +177,7 @@
             this.btnAtualizarAluno.TabIndex = 16;
             this.btnAtualizarAluno.Text = "Atualizar";
             this.btnAtualizarAluno.UseVisualStyleBackColor = true;
+            this.btnAtualizarAluno.Click += new System.EventHandler(this.btnAtualizarAluno_Click);
             // 
             // btnExcluirAluno
             // 
@@ -183,6 +188,7 @@
             this.btnExcluirAluno.TabIndex = 17;
             this.btnExcluirAluno.Text = "Excluir";
             this.btnExcluirAluno.UseVisualStyleBackColor = true;
+            this.btnExcluirAluno.Click += new System.EventHandler(this.btnExcluirAluno_Click);
             // 
             // btnPesquisarAluno
             // 
@@ -193,6 +199,7 @@
             this.btnPesquisarAluno.TabIndex = 18;
             this.btnPesquisarAluno.Text = "Pesquisar";
             this.btnPesquisarAluno.UseVisualStyleBackColor = true;
+            this.btnPesquisarAluno.Click += new System.EventHandler(this.btnPesquisarAluno_Click);
             // 
             // TxtDateNascimento
             // 
@@ -243,7 +250,7 @@
             this.Controls.Add(this.btnPesquisarAluno);
             this.Controls.Add(this.btnExcluirAluno);
             this.Controls.Add(this.btnAtualizarAluno);
-            this.Controls.Add(this.txtPesquisar);
+            this.Controls.Add(this.txtPesquisarAluno);
             this.Controls.Add(this.lblCodigoCliente);
             this.Controls.Add(this.lblCelular);
             this.Controls.Add(this.lblData);
@@ -277,7 +284,7 @@
         private System.Windows.Forms.Label lblData;
         private System.Windows.Forms.Label lblCelular;
         private System.Windows.Forms.Label lblCodigoCliente;
-        private System.Windows.Forms.TextBox txtPesquisar;
+        private System.Windows.Forms.TextBox txtPesquisarAluno;
         private System.Windows.Forms.Button btnAtualizarAluno;
         private System.Windows.Forms.Button btnExcluirAluno;
         private System.Windows.Forms.Button btnPesquisarAluno;

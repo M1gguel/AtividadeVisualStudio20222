@@ -10,3 +10,4 @@ C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\obj\D
 C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\obj\Debug\SistemaBibilioteca.csproj.CoreCompileInputs.cache
 C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\obj\Debug\SistemaBibilioteca.exe
 C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\obj\Debug\SistemaBibilioteca.pdb
+C:\Users\miguel.psilva5\source\repos\SistemaBibilioteca\SistemaBibilioteca\obj\Debug\SistemaBibilioteca.FrmPrincipal.resources

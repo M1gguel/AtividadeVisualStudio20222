@@ -41,7 +41,7 @@
             this.lblAno = new System.Windows.Forms.Label();
             this.btnAtualizarLivro = new System.Windows.Forms.Button();
             this.btnExcluirLivro = new System.Windows.Forms.Button();
-            this.txtPesquisa = new System.Windows.Forms.TextBox();
+            this.txtPesquisaLivro = new System.Windows.Forms.TextBox();
             this.lblISBNPesquisar = new System.Windows.Forms.Label();
             this.btnPesquisarLivro = new System.Windows.Forms.Button();
             this.lblISBN = new System.Windows.Forms.Label();
@@ -53,10 +53,13 @@
             // dgvLivro
             // 
             this.dgvLivro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvLivro.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvLivro.Location = new System.Drawing.Point(80, 288);
             this.dgvLivro.Name = "dgvLivro";
+            this.dgvLivro.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvLivro.Size = new System.Drawing.Size(553, 150);
             this.dgvLivro.TabIndex = 0;
+            this.dgvLivro.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLivro_CellContentDoubleClick);
             // 
             // lblTitulo
             // 
@@ -158,6 +161,7 @@
             this.btnAtualizarLivro.TabIndex = 12;
             this.btnAtualizarLivro.Text = "Atualizar";
             this.btnAtualizarLivro.UseVisualStyleBackColor = true;
+            this.btnAtualizarLivro.Click += new System.EventHandler(this.btnAtualizarLivro_Click);
             // 
             // btnExcluirLivro
             // 
@@ -167,14 +171,16 @@
             this.btnExcluirLivro.TabIndex = 13;
             this.btnExcluirLivro.Text = "Excluir";
             this.btnExcluirLivro.UseVisualStyleBackColor = true;
+            this.btnExcluirLivro.Click += new System.EventHandler(this.btnExcluirLivro_Click);
             // 
-            // txtPesquisa
+            // txtPesquisaLivro
             // 
-            this.txtPesquisa.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPesquisa.Location = new System.Drawing.Point(446, 215);
-            this.txtPesquisa.Name = "txtPesquisa";
-            this.txtPesquisa.Size = new System.Drawing.Size(100, 24);
-            this.txtPesquisa.TabIndex = 15;
+            this.txtPesquisaLivro.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPesquisaLivro.Location = new System.Drawing.Point(446, 215);
+            this.txtPesquisaLivro.Name = "txtPesquisaLivro";
+            this.txtPesquisaLivro.Size = new System.Drawing.Size(100, 24);
+            this.txtPesquisaLivro.TabIndex = 15;
+            this.txtPesquisaLivro.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtPesquisaLivro_KeyUp);
             // 
             // lblISBNPesquisar
             // 
@@ -194,6 +200,7 @@
             this.btnPesquisarLivro.TabIndex = 16;
             this.btnPesquisarLivro.Text = "Pesquisar";
             this.btnPesquisarLivro.UseVisualStyleBackColor = true;
+            this.btnPesquisarLivro.Click += new System.EventHandler(this.btnPesquisarLivro_Click);
             // 
             // lblISBN
             // 
@@ -216,11 +223,11 @@
             // txtAnoPublicacao
             // 
             this.txtAnoPublicacao.Location = new System.Drawing.Point(413, 146);
-            this.txtAnoPublicacao.Mask = "00/00/0000";
+            this.txtAnoPublicacao.Mask = "0000";
             this.txtAnoPublicacao.Name = "txtAnoPublicacao";
             this.txtAnoPublicacao.Size = new System.Drawing.Size(100, 20);
             this.txtAnoPublicacao.TabIndex = 20;
-            this.txtAnoPublicacao.ValidatingType = typeof(System.DateTime);
+            this.txtAnoPublicacao.ValidatingType = typeof(int);
             // 
             // FrmCadastroLivro
             // 
@@ -231,7 +238,7 @@
             this.Controls.Add(this.txtISBN);
             this.Controls.Add(this.lblISBN);
             this.Controls.Add(this.btnPesquisarLivro);
-            this.Controls.Add(this.txtPesquisa);
+            this.Controls.Add(this.txtPesquisaLivro);
             this.Controls.Add(this.lblISBNPesquisar);
             this.Controls.Add(this.btnExcluirLivro);
             this.Controls.Add(this.btnAtualizarLivro);
@@ -270,7 +277,7 @@
         private System.Windows.Forms.Label lblAno;
         private System.Windows.Forms.Button btnAtualizarLivro;
         private System.Windows.Forms.Button btnExcluirLivro;
-        private System.Windows.Forms.TextBox txtPesquisa;
+        private System.Windows.Forms.TextBox txtPesquisaLivro;
         private System.Windows.Forms.Label lblISBNPesquisar;
         private System.Windows.Forms.Button btnPesquisarLivro;
         private System.Windows.Forms.Label lblISBN;

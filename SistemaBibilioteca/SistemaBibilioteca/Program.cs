@@ -16,7 +16,7 @@ namespace SistemaBibilioteca
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmCadastroLivro());
+            Application.Run(new FrmPrincipal());
         }
     }
 }
