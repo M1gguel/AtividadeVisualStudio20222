@@ -28,35 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvLivro = new System.Windows.Forms.DataGridView();
             this.lblTitulo = new System.Windows.Forms.Label();
-            this.btnAdicionar = new System.Windows.Forms.Button();
+            this.btnAdicionarLivro = new System.Windows.Forms.Button();
             this.txtTitulo = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtAutor = new System.Windows.Forms.TextBox();
             this.lblAutor = new System.Windows.Forms.Label();
             this.txtNumeroPaginas = new System.Windows.Forms.TextBox();
             this.lblNumeroDePaginas = new System.Windows.Forms.Label();
             this.txtPreco = new System.Windows.Forms.TextBox();
             this.lblPreco = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.lblAno = new System.Windows.Forms.Label();
-            this.btnAtualizar = new System.Windows.Forms.Button();
-            this.btnExcluir = new System.Windows.Forms.Button();
+            this.btnAtualizarLivro = new System.Windows.Forms.Button();
+            this.btnExcluirLivro = new System.Windows.Forms.Button();
             this.txtPesquisa = new System.Windows.Forms.TextBox();
             this.lblISBNPesquisar = new System.Windows.Forms.Label();
-            this.btnPesquisar = new System.Windows.Forms.Button();
-            this.txtISBN = new System.Windows.Forms.TextBox();
+            this.btnPesquisarLivro = new System.Windows.Forms.Button();
             this.lblISBN = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.txtISBN = new System.Windows.Forms.MaskedTextBox();
+            this.txtAnoPublicacao = new System.Windows.Forms.MaskedTextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLivro)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvLivro
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(80, 288);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(553, 150);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvLivro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvLivro.Location = new System.Drawing.Point(80, 288);
+            this.dgvLivro.Name = "dgvLivro";
+            this.dgvLivro.Size = new System.Drawing.Size(553, 150);
+            this.dgvLivro.TabIndex = 0;
             // 
             // lblTitulo
             // 
@@ -68,14 +68,15 @@
             this.lblTitulo.TabIndex = 1;
             this.lblTitulo.Text = "Título:";
             // 
-            // btnAdicionar
+            // btnAdicionarLivro
             // 
-            this.btnAdicionar.Location = new System.Drawing.Point(28, 216);
-            this.btnAdicionar.Name = "btnAdicionar";
-            this.btnAdicionar.Size = new System.Drawing.Size(75, 23);
-            this.btnAdicionar.TabIndex = 2;
-            this.btnAdicionar.Text = "Adicionar";
-            this.btnAdicionar.UseVisualStyleBackColor = true;
+            this.btnAdicionarLivro.Location = new System.Drawing.Point(28, 216);
+            this.btnAdicionarLivro.Name = "btnAdicionarLivro";
+            this.btnAdicionarLivro.Size = new System.Drawing.Size(75, 23);
+            this.btnAdicionarLivro.TabIndex = 2;
+            this.btnAdicionarLivro.Text = "Adicionar";
+            this.btnAdicionarLivro.UseVisualStyleBackColor = true;
+            this.btnAdicionarLivro.Click += new System.EventHandler(this.btnAdicionarLivro_Click);
             // 
             // txtTitulo
             // 
@@ -85,13 +86,13 @@
             this.txtTitulo.Size = new System.Drawing.Size(350, 24);
             this.txtTitulo.TabIndex = 3;
             // 
-            // textBox2
+            // txtAutor
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(80, 92);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(346, 24);
-            this.textBox2.TabIndex = 5;
+            this.txtAutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAutor.Location = new System.Drawing.Point(80, 92);
+            this.txtAutor.Name = "txtAutor";
+            this.txtAutor.Size = new System.Drawing.Size(346, 24);
+            this.txtAutor.TabIndex = 5;
             // 
             // lblAutor
             // 
@@ -139,41 +140,33 @@
             this.lblPreco.TabIndex = 8;
             this.lblPreco.Text = "Preço:";
             // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(428, 141);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 24);
-            this.textBox5.TabIndex = 11;
-            // 
             // lblAno
             // 
             this.lblAno.AutoSize = true;
             this.lblAno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAno.Location = new System.Drawing.Point(296, 146);
+            this.lblAno.Location = new System.Drawing.Point(268, 146);
             this.lblAno.Name = "lblAno";
             this.lblAno.Size = new System.Drawing.Size(126, 16);
             this.lblAno.TabIndex = 10;
             this.lblAno.Text = "Ano De Publicação:";
             // 
-            // btnAtualizar
+            // btnAtualizarLivro
             // 
-            this.btnAtualizar.Location = new System.Drawing.Point(151, 216);
-            this.btnAtualizar.Name = "btnAtualizar";
-            this.btnAtualizar.Size = new System.Drawing.Size(75, 23);
-            this.btnAtualizar.TabIndex = 12;
-            this.btnAtualizar.Text = "Atualizar";
-            this.btnAtualizar.UseVisualStyleBackColor = true;
+            this.btnAtualizarLivro.Location = new System.Drawing.Point(151, 216);
+            this.btnAtualizarLivro.Name = "btnAtualizarLivro";
+            this.btnAtualizarLivro.Size = new System.Drawing.Size(75, 23);
+            this.btnAtualizarLivro.TabIndex = 12;
+            this.btnAtualizarLivro.Text = "Atualizar";
+            this.btnAtualizarLivro.UseVisualStyleBackColor = true;
             // 
-            // btnExcluir
+            // btnExcluirLivro
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(271, 216);
-            this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(75, 23);
-            this.btnExcluir.TabIndex = 13;
-            this.btnExcluir.Text = "Excluir";
-            this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluirLivro.Location = new System.Drawing.Point(271, 216);
+            this.btnExcluirLivro.Name = "btnExcluirLivro";
+            this.btnExcluirLivro.Size = new System.Drawing.Size(75, 23);
+            this.btnExcluirLivro.TabIndex = 13;
+            this.btnExcluirLivro.Text = "Excluir";
+            this.btnExcluirLivro.UseVisualStyleBackColor = true;
             // 
             // txtPesquisa
             // 
@@ -193,22 +186,14 @@
             this.lblISBNPesquisar.TabIndex = 14;
             this.lblISBNPesquisar.Text = "ISBN:";
             // 
-            // btnPesquisar
+            // btnPesquisarLivro
             // 
-            this.btnPesquisar.Location = new System.Drawing.Point(564, 215);
-            this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.Size = new System.Drawing.Size(75, 23);
-            this.btnPesquisar.TabIndex = 16;
-            this.btnPesquisar.Text = "Pesquisar";
-            this.btnPesquisar.UseVisualStyleBackColor = true;
-            // 
-            // txtISBN
-            // 
-            this.txtISBN.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtISBN.Location = new System.Drawing.Point(80, 141);
-            this.txtISBN.Name = "txtISBN";
-            this.txtISBN.Size = new System.Drawing.Size(184, 24);
-            this.txtISBN.TabIndex = 18;
+            this.btnPesquisarLivro.Location = new System.Drawing.Point(564, 215);
+            this.btnPesquisarLivro.Name = "btnPesquisarLivro";
+            this.btnPesquisarLivro.Size = new System.Drawing.Size(75, 23);
+            this.btnPesquisarLivro.TabIndex = 16;
+            this.btnPesquisarLivro.Text = "Pesquisar";
+            this.btnPesquisarLivro.UseVisualStyleBackColor = true;
             // 
             // lblISBN
             // 
@@ -220,33 +205,51 @@
             this.lblISBN.TabIndex = 17;
             this.lblISBN.Text = "ISBN:";
             // 
+            // txtISBN
+            // 
+            this.txtISBN.Location = new System.Drawing.Point(80, 145);
+            this.txtISBN.Mask = "000-0-0000-0000-0";
+            this.txtISBN.Name = "txtISBN";
+            this.txtISBN.Size = new System.Drawing.Size(131, 20);
+            this.txtISBN.TabIndex = 19;
+            // 
+            // txtAnoPublicacao
+            // 
+            this.txtAnoPublicacao.Location = new System.Drawing.Point(413, 146);
+            this.txtAnoPublicacao.Mask = "00/00/0000";
+            this.txtAnoPublicacao.Name = "txtAnoPublicacao";
+            this.txtAnoPublicacao.Size = new System.Drawing.Size(100, 20);
+            this.txtAnoPublicacao.TabIndex = 20;
+            this.txtAnoPublicacao.ValidatingType = typeof(System.DateTime);
+            // 
             // FrmCadastroLivro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(722, 450);
+            this.Controls.Add(this.txtAnoPublicacao);
             this.Controls.Add(this.txtISBN);
             this.Controls.Add(this.lblISBN);
-            this.Controls.Add(this.btnPesquisar);
+            this.Controls.Add(this.btnPesquisarLivro);
             this.Controls.Add(this.txtPesquisa);
             this.Controls.Add(this.lblISBNPesquisar);
-            this.Controls.Add(this.btnExcluir);
-            this.Controls.Add(this.btnAtualizar);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.btnExcluirLivro);
+            this.Controls.Add(this.btnAtualizarLivro);
             this.Controls.Add(this.lblAno);
             this.Controls.Add(this.txtPreco);
             this.Controls.Add(this.lblPreco);
             this.Controls.Add(this.txtNumeroPaginas);
             this.Controls.Add(this.lblNumeroDePaginas);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtAutor);
             this.Controls.Add(this.lblAutor);
             this.Controls.Add(this.txtTitulo);
-            this.Controls.Add(this.btnAdicionar);
+            this.Controls.Add(this.btnAdicionarLivro);
             this.Controls.Add(this.lblTitulo);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvLivro);
             this.Name = "FrmCadastroLivro";
             this.Text = "Cadastro De Livro";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.FrmCadastroLivro_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLivro)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -254,24 +257,24 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvLivro;
         private System.Windows.Forms.Label lblTitulo;
-        private System.Windows.Forms.Button btnAdicionar;
+        private System.Windows.Forms.Button btnAdicionarLivro;
         private System.Windows.Forms.TextBox txtTitulo;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtAutor;
         private System.Windows.Forms.Label lblAutor;
         private System.Windows.Forms.TextBox txtNumeroPaginas;
         private System.Windows.Forms.Label lblNumeroDePaginas;
         private System.Windows.Forms.TextBox txtPreco;
         private System.Windows.Forms.Label lblPreco;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label lblAno;
-        private System.Windows.Forms.Button btnAtualizar;
-        private System.Windows.Forms.Button btnExcluir;
+        private System.Windows.Forms.Button btnAtualizarLivro;
+        private System.Windows.Forms.Button btnExcluirLivro;
         private System.Windows.Forms.TextBox txtPesquisa;
         private System.Windows.Forms.Label lblISBNPesquisar;
-        private System.Windows.Forms.Button btnPesquisar;
-        private System.Windows.Forms.TextBox txtISBN;
+        private System.Windows.Forms.Button btnPesquisarLivro;
         private System.Windows.Forms.Label lblISBN;
+        private System.Windows.Forms.MaskedTextBox txtISBN;
+        private System.Windows.Forms.MaskedTextBox txtAnoPublicacao;
     }
 }
